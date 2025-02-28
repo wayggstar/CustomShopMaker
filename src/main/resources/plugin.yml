@@ -1,0 +1,4 @@
+name: CustomShopMaker
+version: '1.0'
+main: org.wayggstar.customShopMaker.CustomShopMaker
+api-version: '1.21'
