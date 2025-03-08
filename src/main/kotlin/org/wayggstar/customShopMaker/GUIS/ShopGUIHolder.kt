@@ -3,7 +3,7 @@ package org.wayggstar.customShopMaker.GUIS
 import org.bukkit.inventory.Inventory
 import org.bukkit.inventory.InventoryHolder
 
-class ShopGUIHolder(val name: String): InventoryHolder {
+class ShopGUIHolder(val name: String, val guitype: GUItype): InventoryHolder {
 
     private lateinit var shopGUI: Inventory
 
@@ -13,5 +13,11 @@ class ShopGUIHolder(val name: String): InventoryHolder {
 
     fun setInventory(inventory: Inventory){
         this.shopGUI = inventory
+    }
+
+    enum class GUItype{
+        TRANSACTION,
+        EDITOR,
+        PLACER
     }
 }

@@ -1,5 +1,5 @@
 name: CustomShopMaker
-version: '1.0'
+version: '0.0.1'
 main: org.wayggstar.customShopMaker.CustomShopMaker
 api-version: '1.21'
 commands:
